@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/mnt/data/programovani/linux/note-off/build",
+  "command": "/usr/bin/clang++ -I/mnt/data/programovani/linux/note-off/include -I/mnt/data/programovani/linux/note-off/build/include -g -std=gnu++11 -o CMakeFiles/noteOff.dir/src/main.cpp.o -c /mnt/data/programovani/linux/note-off/src/main.cpp",
+  "file": "/mnt/data/programovani/linux/note-off/src/main.cpp"
+}
+]

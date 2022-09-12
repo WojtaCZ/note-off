@@ -1,0 +1,28 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /mnt/data/programovani/linux/note-off/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0febc && [1/2] Building C object CMakeFiles/cmTC_0febc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0febc
+FAILED: cmTC_0febc 
+: && /usr/bin/clang -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_0febc.dir/CheckFunctionExists.c.o -o cmTC_0febc   && :
+/usr/bin/ld: CMakeFiles/cmTC_0febc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x17): undefined reference to `sgemm_'
+clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /mnt/data/programovani/linux/note-off/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_aca98 && [1/2] Building C object CMakeFiles/cmTC_aca98.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_aca98
+FAILED: cmTC_aca98 
+: && /usr/bin/clang -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_aca98.dir/CheckFunctionExists.c.o -o cmTC_aca98  /usr/lib/libblas.so  -lm  -ldl && :
+/usr/bin/ld: CMakeFiles/cmTC_aca98.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x17): undefined reference to `cheev_'
+clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
